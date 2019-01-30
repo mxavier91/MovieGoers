@@ -33,6 +33,24 @@ p {
   padding: 0 20px;
 }
 
+.text-primary {
+  color: #dfe529;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #dfe529;
+  color: #333;
+}
+
 /* NavBar Styling */
 
 #navbar {
@@ -54,7 +72,41 @@ p {
   list-style: none;
 }
 
-#navbar ul li {
-  display: inline-block;
+#navbar li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
   padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #dfe529;
+}
+
+/* Showcase Styling */
+
+#showcase {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/Movie-Posters.jpg);
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h2 {
+  font-size: 50px;
+}
+
+#showcase .showcase-content p {
+  font-size: 20px;
+  line-height: 1.7em;
+  padding-bottom: 10px;
 }
