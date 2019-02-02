@@ -51,6 +51,16 @@ p {
   color: #333;
 }
 
+.bg-dark {
+  background: #444;
+  color: #fff
+}
+
+.bg-light {
+  background: #dfe529;
+  color: #444;
+}
+
 /* NavBar Styling */
 
 #navbar {
@@ -92,7 +102,7 @@ p {
 
 #showcase {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/Movie-Posters.jpg);
-  height: 600px;
+  height: 700px;
 }
 
 #showcase .showcase-content {
@@ -109,4 +119,17 @@ p {
   font-size: 20px;
   line-height: 1.7em;
   padding-bottom: 10px;
+}
+
+/* Feature Styling */
+
+#feature-section {
+  height: 400px;
+}
+
+#feature-section .box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 30px 20px;
 }
