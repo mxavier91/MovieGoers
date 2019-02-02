@@ -61,6 +61,10 @@ p {
   color: #444;
 }
 
+.clr {
+  clear: both;
+}
+
 /* NavBar Styling */
 
 #navbar {
@@ -102,13 +106,13 @@ p {
 
 #showcase {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/Movie-Posters.jpg);
-  height: 700px;
+  height: 100vh;
 }
 
 #showcase .showcase-content {
   color: #fff;
   text-align: center;
-  padding-top: 170px;
+  padding-top: 300px;
 }
 
 #showcase .showcase-content h2 {
@@ -121,15 +125,55 @@ p {
   padding-bottom: 10px;
 }
 
-/* Feature Styling */
 
-#feature-section {
+/* Info Styling */
+
+#info-section {
   height: 400px;
 }
+
+#info-section .info-img {
+  float: left;
+  background: url(/images/Movies_end_of_year_2017.0.jpg) no-repeat center center/cover;
+  width: 50%;
+  min-height: 100%;
+}
+
+#info-section .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 20px 30px;
+}
+
+#info-section h2 {
+  padding-top: 50px;
+}
+
+/* Feature Styling */
 
 #feature-section .box {
   float: left;
   width: 33.3%;
   text-align: center;
-  padding: 30px 20px;
+  padding: 50px;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+#feature-section .box h2 {
+  padding-top: 20px;
+}
+
+
+/* Footer Section */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
