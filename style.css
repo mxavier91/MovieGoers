@@ -168,6 +168,84 @@ p {
   padding-top: 20px;
 }
 
+/* Modal Styling */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 10% auto;
+  width: 600px;
+  height: 550px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+}
+
+.sign-up {
+position: relative;
+top: 43%;
+left: 43%;
+border: none;
+background-color: #000;
+color: #fff;
+padding: 16px 20px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.sign-up:hover {
+  background: #dfe529;
+  color: #000;
+}
+
+.modal-header {
+  background: #f4f4f4;
+  padding: 15px;
+  color: #333;
+  text-align: center;
+  border-bottom: #91969c solid 1px;
+}
+
+.modal-header, h2, .modal-footer {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 10px 20px;
+}
+
+/* .modal-footer {
+  background: coral;
+  padding: 10px;
+  color: #fff;
+  text-align: center
+} */
+
+.closeBtn {
+  color: #333;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Footer Section */
 
