@@ -2,7 +2,8 @@
 var modal = document.getElementById('simpleModal');
 
 // Get open modal button
-var modalBtn = document.getElementById('modalBtn');
+var signUp = document.getElementById('signUpBtn');
+var logIn = document.getElementById('logInBtn');
 
 // Get close Button
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
@@ -12,14 +13,14 @@ var body = document.getElementsByTagName('body')[0]
 
 
 // Listen for Open Click
-modalBtn.addEventListener('click', openModal);
+signUp.addEventListener('click', openModal);
+logIn.addEventListener('click', openModal)
 
 // Listen for Closed Click
 closeBtn.addEventListener('click', closeModal);
 
 // Listen for Outside Click
 window.addEventListener('click', clickOutside);
-
 
 // Function to Open Modal
 function openModal() {
